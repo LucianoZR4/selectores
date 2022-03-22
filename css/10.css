@@ -1,0 +1,19 @@
+a [href="http://www.google.com"] {
+    color:red;
+    /*selector especifico al link*/
+}
+
+a [href^="http"] {
+    color:red;
+    /*el archivo inicia con (por ejemplo:http)*/
+}
+
+a [href$=".com"] {
+    color:red;
+    /*el archivo termina con (por ejemplo:.com)*/
+}
+
+
+input[type="tel"]{
+    border: 5px solid red;
+}

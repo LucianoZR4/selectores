@@ -1,0 +1,11 @@
+.heading,
+.descripcion,
+.oferta{
+    color: red;
+}
+
+/*es igual a*/
+
+p:not(.texto):not(.descripcion){
+    color: red;
+}
